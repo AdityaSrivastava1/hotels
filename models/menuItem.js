@@ -9,7 +9,7 @@ type: Number,
 required: true,
 },
 taste: {
-type: String,
+type: String, 
 enum: ['sweet', 'spicy', 'sour'],
 },
 is_drink: {
