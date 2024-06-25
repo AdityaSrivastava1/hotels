@@ -12,8 +12,6 @@ if (!mongoUrl) {
 
 //set up MongoDB connection
 mongoose.connect(mongoUrl,{
-    useNewUrlParser:true,  
-    useUnifiedTopology:true,
 })
 
 //Get the default connection
